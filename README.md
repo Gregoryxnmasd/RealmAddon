@@ -26,6 +26,12 @@ creator:
 3. (Opcional) Copia el jar de `bungee/build/libs` a tu proxy Bungee/Waterfall si usarás `NETWORK_MESSAGING`.
 4. Configura `plugins/RealmAddon/config.yml`.
 
+### IntelliJ IDEA + Gradle (JDK 21)
+
+- Importa el proyecto como Gradle.
+- Asegúrate de que el **Gradle JVM** apunte a JDK 21.
+- El build usa `java.toolchain` con Java 21 y permite auto-descarga de toolchains.
+
 ## Modos de red
 
 - `SINGLE`: servidor único, en memoria.
