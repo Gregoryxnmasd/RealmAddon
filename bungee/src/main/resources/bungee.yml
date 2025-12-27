@@ -1,0 +1,4 @@
+name: RealmAddonBungee
+main: com.extracraft.realmaddon.bungee.RealmAddonBungeePlugin
+version: 1.0.0
+author: ExtraCraft
