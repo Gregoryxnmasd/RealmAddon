@@ -1,0 +1,38 @@
+mode: SINGLE
+
+mysql:
+  host: localhost
+  port: 3306
+  database: realmaddon
+  user: root
+  password: ""
+  useSSL: false
+
+generators:
+  cherry_islands:
+    displayName: "Cherry Islands"
+    lore:
+      - "Blooming skies and sakura lakes"
+    irisDimensionId: "cherry_islands"
+    seedMode: RANDOM
+    fixedSeed: 0
+    pregenRadiusChunks: 0
+    icon: CHERRY_SAPLING
+  frozen_peaks:
+    displayName: "Frozen Peaks"
+    lore:
+      - "Icy cliffs and snow"
+    irisDimensionId: "frozen_peaks"
+    seedMode: RANDOM
+    fixedSeed: 0
+    pregenRadiusChunks: 0
+    icon: ICE
+
+integration:
+  realmcoreCreateCommand: "realm create"
+  realmcoreHomeCommand: "realm home"
+  realmcoreResetCommand: "realm reset"
+  messagingTargetServer: ""
+  timeoutSeconds: 15
+
+debug: false
